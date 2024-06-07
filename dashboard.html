@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title >Blog Website </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+
+    <!-- ------------ NAV BAR ------------- -->
+
+    <nav>
+        <div class="container nav_container">
+            <a href="#" class="nav_logo">THE SECRET</a>
+
+
+            <ul class="nav_items">
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="singin.html">Signin</a></li>
+
+                <li class="nav_profile">
+                    <div class="avarter">
+                        <img src="./images/avatar2.jpg">
+                    </div>
+
+                    <ul>
+                        <li><a href="dashboard.html">Dashboard</a></li>
+                        <li><a href="logout.html">Logout</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <button id="open_nav"><i class="fa-solid fa-bars-staggered"></i></button>
+            <button id="close_nav"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+    </nav>
+
+
+
+
+
+
+<section class="dashboard">
+    <div class="container dashboard_container">
+
+        <button id="show_slider_btn" class="slider_toggle">
+            <i class="fa-solid fa-angle-right"></i>
+        </button>
+
+        <button id="hide_slider_btn" class="slider_toggle">
+            <i class="fa-solid fa-angle-left"></i>
+        </button>
+
+
+        <aside>
+
+            <ul>
+                <li>
+                    <a href="add-post.html"> <i class="fa-solid fa-pen"></i>
+                        <h5>Add Post</h5>
+                    </a>
+                </li>
+                <li>
+                    <a href="manage-posts.html" class="active"><i class="fa-regular fa-chart-bar"></i>
+                        <h5> Manage Posts</h5>
+                    </a>
+                </li>
+                <li>
+                    <a href="add-user.html"> <i class="fa-solid fa-user-plus"></i>
+                         <h5>Add User</h5>
+                    </a>
+                </li>
+                <li>
+                    <a href="manage-users.html" > <i class="fa-solid fa-users"></i>
+                        <h5> Manage User</h5>
+                    </a>
+                </li>
+                <li>
+                    <a href="add-category.html"> <i class="fa-regular fa-pen-to-square"></i> 
+                        <h5>Add Category</h5>
+                    </a>
+                </li>
+                <li>
+                    <a href="manage-categories.html"> <i class="fa-solid fa-bars-progress"></i>
+                        <h5> Manage Category</h5>
+                    </a>
+                </li>
+            </ul>
+
+        </aside>
+
+
+        <main>
+
+            <h2>Manage User</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Category</th>
+                        <th>Edit</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Lorem ipsum dolor sit amet.</td>
+                        <td>Art</td>
+                        <td><a href="edit-post.html" class="btn sm">Edit</a></td>
+                        <td><a href="delete-post.html" class="btn sm danger">Delete</a></td>
+                    </tr>
+
+                    <tr>
+                        <td>Lorem ipsum dolor sit.</td>
+                        <td>Science </td>
+                        <td><a href="edit-post.html" class="btn sm">Edit</a></td>
+                        <td><a href="delete-post.html" class="btn sm danger">Delete</a></td>
+                    </tr>
+
+                    <tr>
+                        <td>Lorem ipsum dolor sit.</td>
+                        <td>JOb</td>
+                        <td><a href="edit-post.html" class="btn sm">Edit</a></td>
+                        <td><a href="delete-post.html" class="btn sm danger">Delete</a></td>
+                    </tr>
+
+                    <tr>
+                        <td>Lorem ipsum dolor sit amet consectetur.</td>
+                        <td>News</td>
+                        <td><a href="edit-post.html" class="btn sm">Edit</a></td>
+                        <td><a href="delete-post.html" class="btn sm danger">Delete</a></td>
+                    </tr>
+                </tbody>
+            </table>
+            
+        </main>
+    </div>
+</section>
+
+
+    <!-- ------------ Footer ------------- -->
+
+    <footer>
+        <div class="footer_socials">
+            <a href=""> <i class="fa-brands fa-facebook"></i> </a>
+            <a href=""> <i class="fa-brands fa-instagram"></i> </a>
+            <a href=""> <i class="fa-brands fa-twitter"></i> </a>
+            <a href=""> <i class="fa-brands fa-github"></i> </a>
+            <a href=""> <i class="fa-brands fa-linkedin"></i> </a>
+        </div>
+
+        <div class="container footer_container">
+            <article>
+                <h4>Categries</h4>
+                <ul>
+                    <li><a href="">Art</a></li>
+                    <li><a href=""> Wild Life </a></li>
+                    <li><a href="">Travel</a></li>
+                    <li><a href="">Food</a></li>
+                    <li><a href="">Science</a></li>
+                    <li><a href="">Music</a></li>
+                </ul>
+            </article>
+
+            <article>
+                <h4>Online Support</h4>
+                <ul>
+                    <li><a href="">Call Numbers</a></li>
+                    <li><a href=""> Emails</a></li>
+                    <li><a href="">Social Support</a></li>
+                    <li><a href="">Location</a></li>
+                </ul>
+            </article>
+
+            <article>
+                <h4>Blog</h4>
+                <ul>
+                    <li><a href="">Seafty</a></li>
+                    <li><a href="">Repair</a></li>
+                    <li><a href="">Recent</a></li>
+                    <li><a href="">Popular</a></li>
+                    <li><a href="">Update</a></li>
+                    <li><a href="">Today</a></li>
+                </ul>
+            </article>
+
+            <article>
+                <h4>Shorts</h4>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Blog </a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </article>
+        </div>
+
+
+        <div class="footer_cr">
+            <small>Copyright &copy; 2022 - The Secret Code</small>
+        </div>
+    </footer>
+
+
+
+
+
+    <!-- JS LINK -->
+    <script src="main.js"></script>
+
+
+    <!-- FONT AWESOME ICON  -->
+    <script src="https://kit.fontawesome.com/08fdbcedb0.js" crossorigin="anonymous"></script>
+</body>
+</html>
